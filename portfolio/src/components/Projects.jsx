@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
+
 import { useState } from "react";
-import { motion } from "framer-motion";
+import {motion  } from "framer-motion";
 
 export default function Projects() {
   const [filter, setFilter] = useState("all");
@@ -14,17 +16,17 @@ export default function Projects() {
       live: "https://example.com",
       github: "https://github.com/example",
       tech: ["React", "Tailwind", "TypeScript"],
-      image: "/images/perfume.png",
+      image: "/perfumemim.webp",
     },
     {
       id: 2,
       title: "NFT Marketplace",
       category: "web3",
       description: "NFT landing page with React, TypeScript and TailwindCSS.",
-      live: "https://example.com",
-      github: "https://github.com/example",
-      tech: ["React", "TypeScript", "Web3"],
-      image: "/images/nft.png",
+      live: "https://my-nft-marketplace-six.vercel.app/",
+      github: "https://github.com/Kaksie-codes/my-nft-marketplace.git",
+      tech: ["React", "TypeScript", "tailwindcss"],
+      image: "/Screenshot 2025-09-29 144911.png",
     },
     {
       id: 3,

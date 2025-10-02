@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { motion } from "framer-motion";
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from "@heroicons/react/24/outline";
 

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { motion } from "framer-motion";
 
 const skills = {
@@ -7,6 +9,7 @@ const skills = {
     { name: "React", level: 85 },
     { name: "TailwindCSS", level: 80 },
     { name: "TypeScript", level: 75 },
+
   ],
   tools: [
     { name: "Git & GitHub", level: 85 },

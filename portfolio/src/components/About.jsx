@@ -1,4 +1,6 @@
-import { motion } from "framer-motion";
+/* eslint-disable no-unused-vars */
+
+import {motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 
 export default function About() {
