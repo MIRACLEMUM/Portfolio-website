@@ -26,7 +26,7 @@ export default function Projects() {
       live: "https://my-nft-marketplace-six.vercel.app/",
       github: "https://github.com/MIRACLEMUM?tab=repositories",
       tech: ["React", "TypeScript", "tailwindcss"],
-      image: "public/nft.png",
+      image: "/nft.png",
     },
     {
       id: 3,
@@ -40,13 +40,13 @@ export default function Projects() {
     },
     {
       id: 4,
-      title: "Crypto Dashboard",
+      title: "Crypto Tracker",
       category: "blockchain",
       description: "Real-time crypto price tracking dashboard.",
-      live: "https://example.com",
-      github: "https://github.com/example",
+      live: "https://crypto-pi-six.vercel.app/",
+      github: "https://github.com/MIRACLEMUM/crypto",
       tech: ["React", "API", "Tailwind"],
-      image: "/images/crypto.png",
+      image: "/Screenshot 2025-10-19 180351.png",
     },
     {
       id: 5,
@@ -58,6 +58,7 @@ export default function Projects() {
       tech: ["React", "D3.js", "Tailwind"],
       image: "/images/data.png",
     },
+    /*
     {
       id: 6,
       title: "Portfolio Website",
@@ -68,6 +69,7 @@ export default function Projects() {
       tech: ["React", "Tailwind", "Framer Motion"],
       image: "/portfolio.png",
     },
+    */
     {
       id: 7,
       title: "Mobile Banking App",
