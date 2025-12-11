@@ -36,7 +36,7 @@ export default function Projects() {
     live: "https://www.royaltyecosystem.xyz/",
     github: "https://github.com/MIRACLEMUM/Royality",
     tech: ["React", "Tailwind", "TypeScript"],
-    image: "/royality.png", // rename your screenshot to royality.png
+    image: "/royality.png",
   },
   {
     id: 4,
@@ -48,19 +48,19 @@ export default function Projects() {
     tech: ["React", "API", "Tailwind"],
     image: "/Crypto.png",
   },
+  // <-- Add your new project here
+  {
+    id: 5,
+    title: "Crypto Pay Linker",
+    category: "web3",
+    description: "A crypto payment link platform built with React, TypeScript, and TailwindCSS.",
+    live: "https://crypto-pay-linker.vercel.app/", // replace with your live Vercel link
+    github: "https://github.com/MIRACLEMUM/crypto-pay-linker", // replace with your GitHub repo link
+    tech: ["React", "TypeScript", "TailwindCSS", "Next.js"],
+    image: "/Screenshot 2025-12-11 150221.png", // add a screenshot of this project
+  },
 ];
-
-
-  const categories = [
-    "all",
-    "web3",
-    "e-commerce",
-    "blockchain",
-    "productivity",
-    "data",
-    "mobile",
-  ];
-
+  const categories = ["all", "e-commerce", "web3", "blockchain"];
   const filteredProjects = projects.filter((project) => {
     const searchLower = search.toLowerCase().trim();
 
