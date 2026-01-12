@@ -19,7 +19,7 @@ export default function Footer() {
           <h2 className="text-lg font-semibold text-gray-200 mb-2">Follow Me</h2>
           <div className="flex gap-4 mt-1">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/miracle-sunday-b1a377373/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition"
@@ -27,7 +27,7 @@ export default function Footer() {
               LinkedIn
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/MIRACLEMUM?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition"
@@ -35,7 +35,7 @@ export default function Footer() {
               GitHub
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/TechGoddess0"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition"
